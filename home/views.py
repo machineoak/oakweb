@@ -5,4 +5,4 @@ def index(request):
     return HttpResponse("working")
 
 def html(request):
-    return render()
+    return HttpResponse("html loading")
